@@ -8,15 +8,15 @@ namespace LearningExBaseLesson1_3
 {
     class Content
     {
-         public string content;
+         public string text;
         public Content(string content)
         {
-            this.content = content;
+            this.text = content;
         }
 
         public void Show()
         {
-            Console.WriteLine("Content: "+ content);
+            Console.WriteLine("Content: "+ text);
         }
     }
 }
